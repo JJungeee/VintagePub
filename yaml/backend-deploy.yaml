@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: vintageblue-tc
-        image: 593276723488.dkr.ecr.ap-northeast-2.amazonaws.com/tc-vintagepub:aa
+        image: 593276723488.dkr.ecr.ap-northeast-2.amazonaws.com/tc-rolling:ss
         ports:
         - containerPort: 8080
         resources:
