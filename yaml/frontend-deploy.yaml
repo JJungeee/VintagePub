@@ -18,7 +18,7 @@ spec:
         app: web
     spec:
       containers:
-      - image: 593276723488.dkr.ecr.ap-northeast-2.amazonaws.com/front-ng:zz
+      - image: 593276723488.dkr.ecr.ap-northeast-2.amazonaws.com/tc-vintagepub:aa
         name: vintageblue-ng
         ports:
         - containerPort: 80
