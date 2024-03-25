@@ -58,8 +58,11 @@ ArgoCD \
 
 ## 💁‍♂️ 담당 업무
 
+
 ## 📖 상세 내용
 ### Infra Architecture
+![image](https://github.com/JJungeee/VintagePub/assets/142209884/e6194b9f-7fad-4f30-b585-651101c259de)
+
 
 
 ## 🔗 구축 과정
