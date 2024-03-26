@@ -1,0 +1,95 @@
+- 데이터베이스 사용자 생성
+CREATE SCHEMA `VintageBlue` DEFAULT CHARACTER SET utf8 ;
+
+-- USER TABLE
+CREATE TABLE `VintageBlue`.`user` (
+  `userSeq` INT  AUTO_INCREMENT,
+  `userId` VARCHAR(45) NULL,
+  `userPw` VARCHAR(45) NULL,
+  `userName` VARCHAR(45) NULL,
+  `userEmail` VARCHAR(45) NULL,
+  `userTel` VARCHAR(45) NULL,
+  `addr` VARCHAR(45) NULL,
+  `detailAddr` VARCHAR(45) NULL,
+  `postNum` VARCHAR(45) NULL,
+  PRIMARY KEY (`userSeq`));
+
+-- ITEM TABLE
+CREATE TABLE `VintageBlue`.`item` (
+  `itemSeq` INT NOT NULL AUTO_INCREMENT,
+  `itemName` VARCHAR(45) NULL,
+  `itemImg` VARCHAR(45) NULL,
+  `itemPrice` VARCHAR(45) NULL,
+  `itemInfo` VARCHAR(500) NULL,
+  `itemRole` INT NULL DEFAULT 0,
+  PRIMARY KEY (`itemSeq`));
+
+-- CART TABLE
+CREATE TABLE `VintageBlue`.`cart` (
+  `cartSeq` INT NOT NULL AUTO_INCREMENT,
+  `userSeq` INT NULL,
+  `itemSeq` INT NULL,
+  PRIMARY KEY (`cartSeq`),
+  INDEX `itemSeq_idx` (`itemSeq` ASC) VISIBLE,
+  INDEX `userSeq_idx` (`userSeq` ASC) VISIBLE,
+  CONSTRAINT `userSeq`
+    FOREIGN KEY (`userSeq`)
+    REFERENCES `VintageBlue`.`user` (`userSeq`)
+    ON DELETE CASCADE
+    ON UPDATE NO ACTION,
+  CONSTRAINT `itemSeq`
+    FOREIGN KEY (`itemSeq`)
+    REFERENCES `VintageBlue`.`item` (`itemSeq`)
+    ON DELETE CASCADE
+    ON UPDATE NO ACTION);
+
+-- ORDER TABLE
+CREATE TABLE `VintageBlue`.`order` (
+  `orderSeq` INT NOT NULL AUTO_INCREMENT,
+  `userSeq` INT NULL,
+  `itemSeq` INT NULL,
+  `totalPrice` VARCHAR(45) NULL,
+  `addr` VARCHAR(255) NULL,
+  `orderStatus` INT NULL,
+  PRIMARY KEY (`orderSeq`),
+  INDEX `itemSeq_idx` (`itemSeq` ASC) VISIBLE,
+  INDEX `userSeq_idx` (`userSeq` ASC) VISIBLE,
+  FOREIGN KEY (`userSeq`)
+  REFERENCES `VintageBlue`.`user` (`userSeq`)
+  ON DELETE CASCADE
+  ON UPDATE NO ACTION,
+  FOREIGN KEY (`itemSeq`)
+  REFERENCES `VintageBlue`.`item` (`itemSeq`)
+  ON DELETE CASCADE
+  ON UPDATE NO ACTION);
+
+-- insert item Data
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('ocean_goblet', '../img/common/ocean_goblet.png', '19,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 3);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('table_lamp', '../img/common/table_lamp.png', '18,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 1);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('neon_pillow', '../img/common/neon_pillow.png', '34,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 2);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('polaroid_camera', '../img/common/polaroid_camera.png', '24,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('enamel_bowl', '../img/common/enamel_bowl.png', '56,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('ceramic_vase', '../img/common/ceramic_vase.png', '11,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('candles', '../img/common/candles.png', '32,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('black_chair', '../img/common/black_chair.png', '28,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('mint_chair', '../img/common/mint_chair.png', '26,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('mint_glass', '../img/common/mint_glass.png', '12,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('mini_television', '../img/common/mini_television.png', '45,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+insert into item(itemName, itemImg, itemPrice, itemInfo, itemRole) values ('pink_glass', '../img/common/pink_glass.png', '14,000', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.', 0);
+
+-- 최초 관리자 계정 입력
+insert into user(userId, userPw, userName) values('admin', '1234', 'admin');
+
+-- 테이블 조회
+select * from `user`;
+select * from `item`;
+select * from `cart`;
+select * from `order`;
+
+-- 테이블 삭제
+drop table `user`;
+drop table `cart`;
+drop table `item`;
+drop table `order`;

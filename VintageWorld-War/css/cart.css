@@ -1,0 +1,27 @@
+nav{visibility: hidden;}
+
+/* cart */
+.cart{padding: 250px 0 100px;}
+.cart h2{padding-bottom: 22px;font-weight: 700;font-size: 26px;}
+.cart table{width: 100%;}
+.cart thead th, .cart tbody td{width: 25%;text-align: center;vertical-align: middle}
+.cart thead th:nth-child(1), .cart tbody td:nth-child(1){width: 50%}
+.cart thead th{padding: 13px 0;font-weight: 700;border-top: 1px solid rgba(43,57,112,0.1);border-bottom: 1px solid rgba(43,57,112,0.1);font-size: 14px;}
+.cart tbody td{padding: 20px 0;border-bottom: 1px solid rgba(43,57,112,0.1);color: #000}
+.cart tbody td{border-right: 1px solid rgba(43,57,112,0.1);}
+.cart tbody td:nth-child(1){padding-left: 100px;text-align: left;}
+.cart tbody td:nth-child(2){font-weight: 700;font-size: 14px;}
+.cart tbody td.fee{border-right: 0;border-bottom: 1px solid rgba(43,57,112,0.1);vertical-align: middle;font-size: 12px;}
+.cart tbody td.fee span{display: block;margin-bottom: 2px;font-weight: 700;font-size: 15px;}
+.cart tbody td:nth-child(1){position: relative}
+label{position: absolute;top: 50%;left: 10px;margin-top: -7px;}
+input[type="checkbox"]{display: none;}
+input[type="checkbox"] + label {display: inline-block;width: 14px;height: 14px;background-color: #f1f1f1;border: 1px solid rgba(43,57,112,0.4);cursor: pointer;}
+input[type="checkbox"]:checked + label{background-color: #2b3979;border-color: #2b3979;}
+input[type="checkbox"] + label::after{content: "";display: none;width: 4px;height: 8px;margin: 0 auto;border: solid #fff;border-width: 0 2px 2px 0;transform: rotate(45deg);}
+input[type="checkbox"]:checked + label::after{display: block;}
+button{min-width: 80px;height: 32px;margin-top: 12px;padding: 0 8px;box-sizing: border-box;border: 1px solid rgba(43,57,112,0.2);font-weight: 700;font-size: 12px;}
+.btn_order{display: block;width: 150px;height: 45px;margin: 50px auto 0;background-color: #2b3979;line-height: 45px;font-weight: 700;font-size: 14px;color: #fff;text-align: center}
+
+
+  

@@ -1,0 +1,22 @@
+nav, .btn_top{visibility: hidden;}
+
+/* form */
+.form_sineup, .form_login{width: 400px;margin: 200px auto 100px;}
+.form_table{width: 100%;table-layout: fixed}
+.form_table label{position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip: rect(0, 0, 0, 0);white-space: nowrap;border: 0;}
+.form_table td{color: #000}
+.form_table input{width: 100%;height: 45px;padding: 0 20px;border: 1px solid #ddd;background: #fff;color: #000;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+.form_table tr:not(:last-child) input{border-bottom: 0}
+.form_table input:focus{outline: none;}
+input::placeholder{font-size: 13px}
+.form_btn{width: 400px;height: 45px;margin: 35px auto 0;font-weight: 700;font-size: 14px;cursor: pointer}
+.form_sineup .form_btn{background-color: #2b3979;border: none;color: #fff;}
+.form_login .form_btn{background-color: #fff;border: 1px solid #2b3979;color: #2b3979;}
+.link_sineup{display: inline-block;margin-top: 10px;font-weight: 700;font-size: 14px;}
+    
+  

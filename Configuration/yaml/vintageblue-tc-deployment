@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vintageblue-tc-deployment
+  labels:
+    app: vintageblue-tc
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: vintageblue-tc
+  template:
+    metadata:
+      labels:
+        app: vintageblue-tc
+    spec:
+      containers:
+      - name: vintageblue-tc
+        image: heosunghwan/vintageblue:tc
+        ports:
+        - containerPort: 8080
+        env:
+        - name: JDBC_DRIVER
+          value: "com.mysql.cj.jdbc.Driver"
+        - name: JDBC_URL
+          value: "jdbc:mysql://external-db:3306/VintageBlue?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf-8"
+        - name: DBUSER
+          value: "blue"
+        - name: DBPASS
+          value: "1234"
+        resources:
+          limits:		#maximum
+            cpu: "300m"
+          requests:		#minimum
+            cpu: "200m"
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: vintageblue-tc-HPA
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: vintageblue-tc-deployment
+  minReplicas: 1
+  maxReplicas: 10
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50
+        #hpa는 파드의 리소스 사용량을 기준으로 스케일링.
+        #스케일링 대상에서 파드의 평균 사용량을 50%로 유지

@@ -1,0 +1,31 @@
+/* order */
+.order{padding-top: 80px;}
+.order .inner > div{width: 600px;}
+.order_thumb{height: 600px;background-color: rgba(0,0,0,0.02);}
+.order_thumb_img{background-image: url('../img/common/polaroid_camera.png');transform: scale(0.8);}
+.order_detail{box-sizing: border-box;padding: 50px 50px 50px 50px;}
+.order_detail_head{padding-bottom: 20px;border-bottom: 1px solid rgba(43,57,112,0.2);}
+.order_detail_head h2{padding-bottom: 3px;font-weight: 700;font-size: 24px;}
+.order_detail_text{width: 90%;padding: 20px 0 30px;}
+.order_detail_info li{font-size: 12px;}
+.order_detail span{padding-right: 5px;line-height: 18px;}
+.order_total{margin-top: 20px;padding: 20px 0 40px;border-top: 1px solid rgba(43,57,112,0.2)}
+.order_total p{font-size: 17px;}
+.order_detail button{width: 50%;}
+button{height: 40px;box-sizing: border-box;border: 1px solid rgba(43,57,112,0.2);font-weight: 700;}
+button.btn_type1{margin-right: 8px;background-color: #2b3979;color: #fff;}
+
+/* order_board */
+.ob_qna{padding: 100px 0;}
+.ob_comment{padding: 10px 0 8px;font-size: 14px;opacity: 0.7;}
+.order_board button{min-width: 80px;height: 35px;padding: 0 10px;font-size: 12px;}
+.order_board button.btn_type1{margin-right: 5px;}
+.ob_content{margin-top: 20px;border-top: 1px solid rgba(43,57,112,0.2);box-sizing: border-box;text-align: center;}
+.ob_content_comment{padding: 50px 0;font-size: 14px;opacity: 0.6;}
+.ob_content textarea{width: 100%;height: 50px;margin-bottom: 6px;padding: 10px 20px;border: 1px solid rgba(43,57,112,0.2);background: #fff;font-family: 'SUIT-Regular';font-size: 13px;resize: none;color:#666; 
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+}
+.ob_content textarea:focus{outline: none;}
