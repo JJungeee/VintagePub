@@ -89,6 +89,7 @@ ArgoCD \
 
 ### Notion
 ![그림2](https://github.com/JJungeee/VintagePub/assets/142209884/31d482a6-a599-4dd0-bdbd-dbd477610bcd)
+![그림16](https://github.com/JJungeee/VintagePub/assets/142209884/1e0bbfa7-d6fe-4377-8b7b-f519cab227ff)
 
  [AWS Hybrid Cloud Project](https://www.notion.so/AWS-Hybrid-Cloud-Project-efc24c8504b241fabcf3c548db8e0833?pvs=4)
 
@@ -96,12 +97,12 @@ ArgoCD \
 
 # VintagePub
 VintagePub \
- <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=junia3&layout=donut&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&exclude_repo=Face-Transfer-Application" width=38% />
+ <a href="https://github.com/JJungeee/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JJungeee&layout=donut&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&exclude_repo=Face-Transfer-Application" width=38% />
 </a>    
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img src="https://github-readme-stats.vercel.app/api?username=junia3&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" width=56% />
+<a href="https://github.com/JJungeee/github-readme-stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=JJungeee&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" width=56% />
 </a>
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=junia3&theme=react-dark&bg_color=20232a&hide_border=true&line=58A6FF&color=58A6FF" width=94%/>
+<a href="https://github.com/JJungeee/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=JJungeee&theme=react-dark&bg_color=20232a&hide_border=true&line=58A6FF&color=58A6FF" width=94%/>
 </a>
