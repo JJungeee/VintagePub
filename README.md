@@ -71,3 +71,6 @@ ArgoCD \
 
 
 ## 🔗 구축 과정
+### Notion
+ [AWS Hybrid Cloud Project](https://www.notion.so/AWS-Hybrid-Cloud-Project-efc24c8504b241fabcf3c548db8e0833?pvs=4)
+
