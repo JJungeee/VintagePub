@@ -71,8 +71,37 @@ ArgoCD \
 
 
 ## 🔗 구축 과정
+### 🔶 프로젝트 진행 과정
+1. 인프라 선정 - Vintage Blue > Vintage Pub 
+2. 프로젝트 환경 설계 및 구성
+3. On-Premise 환경 구축
+4. Cloud 환경 구축
+5. image를 안전하게 공유하기 위한 repository 구축 - Docker / ECR
+6. Computing, VPC
+7. Storage
+8. 데이터베이스
+9. 마이그레이션 및 전송
+10. 관리 및 거버넌스
+11. 네트워킹
+12. 보안
+13. 배포 및 롤링 업데이트 및 롤백 - ArgoCD
+
+
 ### Notion
 ![그림2](https://github.com/JJungeee/VintagePub/assets/142209884/31d482a6-a599-4dd0-bdbd-dbd477610bcd)
 
  [AWS Hybrid Cloud Project](https://www.notion.so/AWS-Hybrid-Cloud-Project-efc24c8504b241fabcf3c548db8e0833?pvs=4)
 
+
+
+# VintagePub
+VintagePub \
+ <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=junia3&layout=donut&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&exclude_repo=Face-Transfer-Application" width=38% />
+</a>    
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=junia3&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true" width=56% />
+</a>
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=junia3&theme=react-dark&bg_color=20232a&hide_border=true&line=58A6FF&color=58A6FF" width=94%/>
+</a>
