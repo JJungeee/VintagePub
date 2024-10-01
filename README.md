@@ -1,10 +1,12 @@
 # VintagePub
 VintagePub
-     
-    
+<br>
+<br>
+
 # 하이브리드를 통해 AWS EKS 활용한 3Tier 웹 서비스 구축
-     
-      
+<br>
+<br>
+
 > [ Final 프로젝트 규칙 ] \
 \
 AWS Infra 구축 \
@@ -25,13 +27,15 @@ DEV-VPC Peering \
 ArgoCD \
 \
 가산점 부여 사항 : On-Premise & AWS 클라우드와의 Biz 연계 구성
-  
-  
+<br>
+<br>
+
 ## 📆 진행 기간 
 2024.02.13 ~ 2024.03.18 (5주) \
 제출일 : 2024.03.18.월 오후 15시 \
 발표일 : 2024.03.22.금 
-     
+<br>
+<br>
      
 ## 🛠 사용 기술 Stack
 ### OS 
@@ -41,7 +45,6 @@ ArgoCD \
 <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
 <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-<br>
 
 ### CSP 
 <img src="https://img.shields.io/badge/amazonaws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"> 
@@ -75,22 +78,23 @@ ArgoCD \
  
 ### Drawing Tool
 <img src="https://img.shields.io/badge/drawio-F08705?style=for-the-badge&logo=drawio&logoColor=white">
-  
-  
+<br>
+<br>
+
 ## 💁‍♂️ 담당 업무
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/1294aa1f-3aca-471c-8bf0-aa8c42fd99d4)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/68b60be0-2b73-4ce6-97fe-5a74400e1e3a)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/76653bd9-de94-4dd8-a977-be669ad8ee7d)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/21ab2938-d795-4108-82bb-710188172cab)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/c1e1c254-d119-4def-bebc-4fa06c2cbec1)
-
-    
+<br>
+<br>   
   
 ## 📖 상세 내용
 ### Infra Architecture
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/e6194b9f-7fad-4f30-b585-651101c259de)
-  
-  
+<br>  
+<br>  
   
 ## 🔗 구축 과정
 ### 🔶 프로젝트 진행 과정
@@ -107,15 +111,17 @@ ArgoCD \
 11. 네트워킹
 12. 보안
 13. 배포 및 롤링 업데이트 및 롤백 - ArgoCD
-  
-  
+<br>
+<br>
+
 ### Notion
+<div align=center>
 ![그림2](https://github.com/JJungeee/VintagePub/assets/142209884/31d482a6-a599-4dd0-bdbd-dbd477610bcd)
 ![그림16](https://github.com/JJungeee/VintagePub/assets/142209884/1e0bbfa7-d6fe-4377-8b7b-f519cab227ff)
-
+</div>
  [AWS Hybrid Cloud Project](https://www.notion.so/AWS-Hybrid-Cloud-Project-efc24c8504b241fabcf3c548db8e0833?pvs=4)
-  
-  
+ <br> 
+ <br> 
   
 # VintagePub
 VintagePub \
