@@ -136,6 +136,7 @@ ArgoCD \
 ![그림16](https://github.com/JJungeee/VintagePub/assets/142209884/1e0bbfa7-d6fe-4377-8b7b-f519cab227ff)
 
 </div>
+<img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 
  [AWS Hybrid Cloud Project](https://www.notion.so/AWS-Hybrid-Cloud-Project-efc24c8504b241fabcf3c548db8e0833?pvs=4)
  
