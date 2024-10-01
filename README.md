@@ -41,6 +41,7 @@ ArgoCD \
 <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
 <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<br>
 
 ### CSP 
 <img src="https://img.shields.io/badge/amazonaws-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"> 
@@ -118,6 +119,7 @@ ArgoCD \
   
 # VintagePub
 VintagePub \
+<div align=center>
  <a href="https://github.com/JJungeee/VintagePub/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JJungeee&layout=donut&show_icons=true&theme=material-palenight&hide_border=true&bg_color=20232a&icon_color=58A6FF&text_color=fff&title_color=58A6FF&count_private=true&exclude_repo=Face-Transfer-Application" width=38% />
 </a>    
@@ -127,3 +129,4 @@ VintagePub \
 <a href="https://github.com/JJungeee/VintagePub/github-readme-activity-graph">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=JJungeee&theme=react-dark&bg_color=20232a&hide_border=true&line=58A6FF&color=58A6FF" width=94%/>
 </a>
+</div>
