@@ -127,8 +127,10 @@ ArgoCD \
 
 ### Notion
 <div align=center>
+ 
 ![그림2](https://github.com/JJungeee/VintagePub/assets/142209884/31d482a6-a599-4dd0-bdbd-dbd477610bcd)
 ![그림16](https://github.com/JJungeee/VintagePub/assets/142209884/1e0bbfa7-d6fe-4377-8b7b-f519cab227ff)
+
 </div>
  [AWS Hybrid Cloud Project](https://www.notion.so/AWS-Hybrid-Cloud-Project-efc24c8504b241fabcf3c548db8e0833?pvs=4)
  <br> 
