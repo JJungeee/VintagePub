@@ -85,11 +85,15 @@ ArgoCD \
 
 
 ## 💁‍♂️ 담당 업무
+<div align=center>
+ 
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/1294aa1f-3aca-471c-8bf0-aa8c42fd99d4)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/68b60be0-2b73-4ce6-97fe-5a74400e1e3a)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/76653bd9-de94-4dd8-a977-be669ad8ee7d)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/21ab2938-d795-4108-82bb-710188172cab)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/c1e1c254-d119-4def-bebc-4fa06c2cbec1)
+
+</div>
 <br>
 <br>   
 
@@ -132,7 +136,9 @@ ArgoCD \
 ![그림16](https://github.com/JJungeee/VintagePub/assets/142209884/1e0bbfa7-d6fe-4377-8b7b-f519cab227ff)
 
 </div>
+
  [AWS Hybrid Cloud Project](https://www.notion.so/AWS-Hybrid-Cloud-Project-efc24c8504b241fabcf3c548db8e0833?pvs=4)
+ 
  <br> 
  <br> 
   
