@@ -30,13 +30,15 @@ ArgoCD \
 <br>
 <br>
 
+
 ## 📆 진행 기간 
 2024.02.13 ~ 2024.03.18 (5주) \
 제출일 : 2024.03.18.월 오후 15시 \
 발표일 : 2024.03.22.금 
 <br>
 <br>
-     
+
+
 ## 🛠 사용 기술 Stack
 ### OS 
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=black"> 
@@ -81,6 +83,7 @@ ArgoCD \
 <br>
 <br>
 
+
 ## 💁‍♂️ 담당 업무
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/1294aa1f-3aca-471c-8bf0-aa8c42fd99d4)
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/68b60be0-2b73-4ce6-97fe-5a74400e1e3a)
@@ -89,13 +92,18 @@ ArgoCD \
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/c1e1c254-d119-4def-bebc-4fa06c2cbec1)
 <br>
 <br>   
-  
+
+
 ## 📖 상세 내용
 ### Infra Architecture
+<div align=center>
 ![image](https://github.com/JJungeee/VintagePub/assets/142209884/e6194b9f-7fad-4f30-b585-651101c259de)
+</div>
 <br>  
 <br>  
-  
+<br>
+
+
 ## 🔗 구축 과정
 ### 🔶 프로젝트 진행 과정
 1. 인프라 선정 - Vintage Blue > Vintage Pub 
@@ -113,6 +121,7 @@ ArgoCD \
 13. 배포 및 롤링 업데이트 및 롤백 - ArgoCD
 <br>
 <br>
+
 
 ### Notion
 <div align=center>
