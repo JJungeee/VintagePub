@@ -31,15 +31,15 @@ ArgoCD \
 2024.02.13 ~ 2024.03.18 (5주) \
 제출일 : 2024.03.18.월 오후 15시 \
 발표일 : 2024.03.22.금 
-  
-  
+     
+     
 ## 🛠 사용 기술 Stack
 ### OS 
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=black"> 
 
 ### Infra 
-<img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"\>
-<img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"\>
+<img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white">
+<img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
 <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 
 ### CSP 
